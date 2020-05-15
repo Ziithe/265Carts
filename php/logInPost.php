@@ -2,10 +2,10 @@
 session_start();
 include('database.php');
 
-$dbhost = "localhost";
-$dbuser = "root";
-$dbpass = "";
-$dbname = "+265carts";
+$dbhost = "us-cdbr-east-06.cleardb.net";
+$dbuser = "be62d97ed836ba";
+$dbpass = "9dc7e225";
+$dbname = "heroku_6c6bbf07cf6c7ad";
 $message = "";
 
 $conn = PDODBConnect($GLOBALS['dbhost'], $GLOBALS['dbuser'], $GLOBALS['dbpass'], $GLOBALS['dbname']);

@@ -13,11 +13,11 @@ class createDb
     //class constructor
 
     public function __construct(
-        $dbname = '+265Carts',
+        $dbname = 'heroku_6c6bbf07cf6c7ad',
         $tablename = 'products',
-        $servername = 'localhost',
-        $username = 'root',
-        $password = ''
+        $servername = 'us-cdbr-east-06.cleardb.net',
+        $username = 'be62d97ed836ba',
+        $password = '9dc7e225'
     )
     {
         $this->dbname = $dbname;
