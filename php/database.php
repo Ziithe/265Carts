@@ -1,4 +1,5 @@
 <?php
+
 function PDODBConnect($dbhost, $dbuser, $dbpass, $dbname) {
     try {
         $pdoconn = new PDO("mysql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass);

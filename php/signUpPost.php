@@ -11,6 +11,6 @@ if (isset($_POST['signUpButton'])) {
     RegisterClientByPDO($Username, $email, $password, $password2);
 }
 else{
-    header("Location: ../signUp.html");
+    header("Location: ../signUp.php");
     exit();
 }

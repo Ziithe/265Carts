@@ -55,7 +55,7 @@ h6 {
 
 p {
 	font-size: 14px;
-	color: #585858;
+	color: #f0f0f0;
 	line-height: 1.6;
 }
 
@@ -701,6 +701,7 @@ ol {
 	transition: all 0.5s ease 1s;
 }
 
+
 .slide-num-holder {
 	float: right;
 	z-index: 1;
@@ -878,10 +879,11 @@ ol {
 
 .product-item .pi-links a.add-card {
 	padding-top: 8px;
+
 }
 
 .product-item .pi-links a.add-card span {
-	font-size: 12px;
+	font-size: 8px;
 	font-weight: bold;
 	text-transform: uppercase;
 	position: absolute;
